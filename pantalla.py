@@ -12,7 +12,7 @@ class Pantalla:
     def printData(self, gData, procesos, linea_procesos, nombre):
         #impresion del nombre y titulos
         print(nombre.upper())
-        print('| CLAVE | LLEGADA | EXPLOSION | ESPERAR | RENOVACION |')
+        print('| CLAVE | LLEGADA | EXPLOSION | ESPERAR |')
         
         #recorrido los procesos e imprime los datos segun corresponda
         for key,value in sorted(procesos.items()):
@@ -20,6 +20,7 @@ class Pantalla:
             self.prom_tiempo_espera += value[0]
             self.prom_tiempo_respuesta += value[1]
         
+        print("")
         #impresion del calculo de tiempos
         print('Tiempo de Espera promedio = {}    Tiempo de respuesta promedio = {}\n'.format(self.prom_tiempo_espera/len(procesos),self.prom_tiempo_respuesta/len(procesos)))
         
