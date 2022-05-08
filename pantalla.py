@@ -9,7 +9,7 @@ class Pantalla:
         self.linea_procesosstr= "0 -> "
 
     """Imprime el nombre del proceso junto a los calculos obtenidos en los respectivos metodos de cada clase"""
-    def printData(self, gData, procesos, linea_procesos, nombre):
+    def imprimir_datos(self, gData, procesos, linea_procesos, nombre):
         #impresion del nombre y titulos
         print(nombre.upper())
         print('| CLAVE | LLEGADA | EXPLOSION | ESPERAR |')

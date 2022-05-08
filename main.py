@@ -22,7 +22,7 @@ if __name__ =='__main__':
     proceso_strf,posiciones_srtf = srtf_obj.srtf(gData)
     
     #Impresion de datos
-    Pantalla().printData(gData,proceso_fcfs,posiciones_fcfs,'First Come First Served')
-    Pantalla().printData(gData,proceso_sjf,posiciones_sjf,'Shortest Job First')
-    Pantalla().printData(gData,proceso_strf,posiciones_srtf,'Shortest Remaning Time First')
+    Pantalla().imprimir_datos(gData,proceso_fcfs,posiciones_fcfs,'First Come First Served')
+    Pantalla().imprimir_datos(gData,proceso_sjf,posiciones_sjf,'Shortest Job First')
+    Pantalla().imprimir_datos(gData,proceso_strf,posiciones_srtf,'Shortest Remaning Time First')
 
