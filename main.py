@@ -4,7 +4,6 @@ from algoritmos import *
 
 
 if __name__ =='__main__':
-    op = 0
     
     #seteo de datos iniciales
     gData = {'P1': [6,5], 'P2': [2,7], 'P3': [4,9], 'P4':[3,1], 'P5': [1,2], 'P6':[20,15]}
